@@ -1,26 +1,80 @@
-<h1>Gabriel Alves</h1>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Gabriel Alves</title>
+    <meta name="description" content="Portfólio de Gabriel Alves, Desenvolvedor Full-Stack. Conheça minhas habilidades em HTML, CSS, JavaScript, React, Node.js e mais.">
+    <title>Portfólio Gabriel Alves</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!--Dev Icon Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
-    <!--CSS do Projeto-->
-    <link rel=" stylesheet" href="css/styles.css">
+    
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Teste</h1>
-    <ion-icon name="heart"></ion-icon>
-    <i class="devicon-amazonwebservices-plain-wordmark"></i>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Gabriel Alves</h2>
+            <img id="bio-image" src="img/gabriel.png" alt="Gabriel Alves">
+            <p>Olá, meu nome é Gabriel Alves e sou <span class="highlight">Desenvolvedor Full-Stack</span>.</p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            <ul id="social-container">
+                <li><a href="https://www.instagram.com/biel_izaias/" target="_blank" aria-label="Link para o Instagram"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="https://x.com/biel_izaias094" target="_blank" aria-label="Link para o Twitter"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="https://www.tiktok.com/@bielzera_gg" target="_blank" aria-label="Link para o TikTok"><ion-icon name="logo-tiktok"></ion-icon></a></li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:gabrielalves051294@gmail.com">gabrielalves051294@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Gabriel Alves</h1>
+            <p id="title"><span class="highlight">Desenvolvedor Full-Stack</span></p>
+            <p class="description">Apaixonado por tecnologia e em jornada para me tornar <span class="highlight">Desenvolvedor Full-Stack</span>. Com base sólida de uma <span class="highlight">formação técnica em TI</span>, atualmente aprofundo meus conhecimentos no curso de <span class="highlight">Ciência da Computação</span> para criar soluções completas e eficientes.</p>
+            <a href="https://github.com/gabriel-alves051294" id="btn-projects" target="_blank"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">Conheça as tecnologias que domino:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-php-plain colored"></i>
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                    <i class="devicon-postgresql-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Front-end Frameworks</p>
+                    <i class="devicon-react-plain colored"></i>
+                    <i class="devicon-vuejs-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end Frameworks</p>
+                    <i class="devicon-laravel-plain colored"></i>
+                    <i class="devicon-django-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Tools</p>
+                    <i class="devicon-linux-plain colored"></i>
+                    <i class="devicon-docker-plain colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
     
-    <!--Ion Icons-->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
